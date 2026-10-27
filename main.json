@@ -1,0 +1,14 @@
+{
+  "table": "users",
+  "columns": [
+    { "name": "id", "type": "integer", "primary_key": true },
+    { "name": "username", "type": "string", "length": 50 },
+    { "name": "email", "type": "string", "length": 100 },
+    { "name": "age", "type": "integer" },
+    { "name": "is_active", "type": "boolean", "default": true }
+  ],
+  "data": [
+    { "id": 1, "username": "alice", "email": "alice@example.com", "age": 28, "is_active": true },
+    { "id": 2, "username": "bob", "email": "bob@example.com", "age": 34, "is_active": false }
+  ]
+}
